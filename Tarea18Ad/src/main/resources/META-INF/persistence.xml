@@ -7,8 +7,8 @@
         <class>Tarea17AdOgmodelos.Hibernate.GrupoHibernate</class>
 
         <properties>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
-            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect"/>
+            <property name="hibernate.connection.driver_class" value="com.oracle.database.jdbc"/>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/tarea17"/>
             <property name="hibernate.connection.username" value="root"/>
             <property name="hibernate.connection.password" value="linarespajero"></property>
